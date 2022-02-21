@@ -1,0 +1,26 @@
+/********** 项目公用样式 **********/
+
+/*
+ * common style start with com_
+ */
+
+.com-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.95);
+  // border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.reset-vant-button {
+  font-size: 16px;
+  color: #ffffff;
+  background-image: linear-gradient(-78deg, #397bf1, #5f99fd);
+  border-radius: 24px;
+}
